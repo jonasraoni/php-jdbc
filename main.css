@@ -1,0 +1,105 @@
+/*-- Common Style ----------------------- */
+*{
+	font-family: monospace;
+}
+html{
+	height: 100%;
+}
+body{
+	display: block;
+ 	background: #999;
+	padding: 5px;
+	font-size: 14px;
+	margin: 0;
+	min-height: 100%;
+}
+#all{
+	margin: 0 auto;
+	width: 750px;
+	background: #999;
+	border-left: 1px solid #858585;
+	border-right: 1px solid #858585;
+}
+#content{
+	padding: 20px;
+	background: #eee;
+}
+#menu{
+	padding: 10px;
+	background: #fee;
+	border-bottom: #999 solid 1px;
+}
+#menu a{
+	font: 14px georgia, verdana;
+	color: #444;
+
+}
+#footer{
+	height: 30px;
+ 	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background: #ccc;
+}
+h1{
+	border-bottom: 1px solid #999;
+ 	border-top: 1px solid #999;
+	background: #eaeaf4;
+	padding: 40px;
+	margin: 0;
+}
+h2 strong{
+	color: #900;
+}
+h3{
+	font: 14px georgia;
+	font-weight: bold;
+	color: #009;
+	border-bottom: 1px solid #000;
+}
+fieldset{
+	margin-bottom: 20px;
+	/*display: inline;*/
+ 	clear: both;
+	background: url(back.png) #fafafa;
+	border: 1px solid #999;
+ 	padding: 0px 20px 20px 20px;
+}
+label{
+	text-align: right;
+	display: block;
+	clear: both;
+}
+legend{
+	margin: 0 0 10px 0;
+	padding: 2px;
+	background: #eef;
+	border: 1px solid #999;
+	font-weight: bold;
+}
+fieldset > legend{
+	margin-top: 10px;
+}
+label span{
+	float: left;
+	clear: both;
+	display: block;
+	width: 170px;
+}
+select, textarea, input{
+	border: 1px solid #999;
+	margin: 4px;
+}
+select:focus, select:hover, textarea:focus, textarea:hover, input:hover, input:focus{
+	background: #eee;
+}
+select.disabled, textarea.disabled, input.disabled{
+	background: #d4d0c8;
+}
+.right{
+	text-align: right;
+}
+pre{
+	padding: 30px;
+	background: url(back.png) #fafafa;
+	border: 1px solid #999;
+}
